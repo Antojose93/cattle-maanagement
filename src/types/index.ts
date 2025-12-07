@@ -13,6 +13,10 @@ export interface Animal {
   sale_price?: number
   notes?: string
   updated_at?: string
+  buyer_name?: string
+  death_reason?: string
+  death_date?: string
+  motherId?: string | number | null
 }
 
 
